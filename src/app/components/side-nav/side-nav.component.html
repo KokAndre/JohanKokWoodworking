@@ -1,0 +1,50 @@
+<!-- Header -->
+<div class="header-container row">
+  <div class="col align-content-center">
+    <p class="mb-0">Welcome to Johan Kok Woodworking!</p>
+  </div>
+  <div class="col-auto align-content-center">
+    <div class="row">
+
+
+
+      <ng-container>
+        <div class="pointer transparent-border">
+          <a class="nav-link text-size-14 pb-0 pl-0" [routerLink]="['/home']"
+            routerLinkActive="nav-link-active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </div>
+      </ng-container>
+
+
+
+
+
+
+      <!-- <div class="pointer transparent-border" (click)="setActiveScreen(availableScreens.Home)"
+        [ngClass]="{'active-nav-link': activeScreen === availableScreens.Home}">
+        <p class="m-2 text-size-22">Home</p>
+      </div> -->
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
+<!-- End of Header -->
+
+<!-- Body -->
+<div class="main-content-container">
+  <router-outlet></router-outlet>
+</div>
+<!-- End of Body -->
+
+<!-- Footer -->
+<div class="footer-container">
+  <div class="row">
+    <p class="mb-0">Add some footer content here</p>
+  </div>
+</div>
+<!-- End of Footer -->

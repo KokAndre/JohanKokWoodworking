@@ -1,7 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '', component: SideNavComponent, children: [
+      {
+        path: '', redirectTo: 'home', pathMatch: 'full',
+      },
+      {
+        path: 'home', component: HomePageComponent
+      }
+    ]
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
