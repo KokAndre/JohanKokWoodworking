@@ -5,15 +5,14 @@
   </div>
   <div class="col-auto align-content-center">
     <div class="row">
-
-
-
-      <ng-container>
-        <div class="pointer">
-          <a class="nav-link text-size-14 pb-0 pl-0" [routerLink]="['/home']" routerLinkActive="nav-link-active"
-            [routerLinkActiveOptions]="{exact: true}">Home</a>
-        </div>
-      </ng-container>
+      <div class="pointer mr-3 col">
+        <a class="nav-link text-size-14 pb-0 pl-0" [routerLink]="['/home']" routerLinkActive="nav-link-active"
+          [routerLinkActiveOptions]="{exact: true}">Home</a>
+      </div>
+      <div class="pointer col">
+        <a class="nav-link text-size-14 pb-0 pl-0" [routerLink]="['/products']" routerLinkActive="nav-link-active"
+          [routerLinkActiveOptions]="{exact: true}">Products</a>
+      </div>
 
       <!-- <div class="pointer transparent-border" (click)="setActiveScreen(availableScreens.Home)"
         [ngClass]="{'active-nav-link': activeScreen === availableScreens.Home}">
