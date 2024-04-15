@@ -2,6 +2,22 @@
 
 https://kokandre.github.io/JohanKokWoodworking/home
 
+# Potential company names
+
+ - WoodWorks by Johan
+ - Vaal Valley Woodcraft
+ - Riverbend Woodcraft
+ - Rustic Roots Carpentry
+ - Vaal Timber Treasures
+ - TimberTrove Carpentry
+ - Crafted Creek Woodworks
+ - Riverside Artisan Carpentry
+ - Heritage Handcrafts
+ - Riverside Rustic Woodworks
+ - TimberEdge Carpentry
+ - Riverside TimberCraft
+ - Riverside Rustic Creations
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ## Development server
