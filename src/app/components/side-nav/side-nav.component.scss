@@ -6,11 +6,15 @@
 }
 
 .main-content-container {
-    height: calc(100vh - 152px);
+    height: calc(100vh - 102px);
     width: 100vw;
     overflow-y: auto;
     min-width: 1060px !important;
     // width: 100%;
+}
+
+.main-content {
+    min-height: calc(100vh - 152px);
 }
 
 .footer-container {
@@ -20,5 +24,13 @@
 }
 
 .transparent-border {
-    border: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link-active {
+    border-bottom: 2px solid black !important;
 }
