@@ -9,6 +9,8 @@ export class HomePageComponent implements OnInit {
 
   constructor() { }
 
+// Comments to test
+
   ngOnInit() {
   }
 
